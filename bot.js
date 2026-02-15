@@ -21,8 +21,8 @@ const openseaSDK = new OpenSeaSDK(PROVIDER, {
 });
 
 // Hedef Koleksiyon (Base üzerindeki kontrat adresi ve slug)
-const COLLECTION_SLUG = "base-koleksiyon-slug"; // Örn: "based-punks"
-const COLLECTION_CONTRACT = "0x..."; // Koleksiyonun Base kontrat adresi
+const COLLECTION_SLUG = "testmint-750826171"; // Örn: "based-punks"
+const COLLECTION_CONTRACT = "0x53d5890ec76462a8ceb7d389ea97a7fe7d2f08db"; // Koleksiyonun Base kontrat adresi
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
